@@ -12,7 +12,7 @@ redirect_from:
 
 # 👋 About Me
 
-I am a Ph.D. candidate in **Instrument Science and Technology** at **Southeast University (SEU)**, Nanjing, China, under the supervision of **Prof. Xiaolin Meng**.
+I am a Ph.D. candidate in **Instrument Science and Technology** at **Southeast University (SEU)**, Nanjing, China, under the supervision of **Prof. [Xiaolin Meng](https://www.researchgate.net/profile/Xiaolin-Meng-2)**.
 
 My research interests include **brain-inspired navigation**  🤖 and **brain-inspired intelligence** 🧠, **spiking neural networks** ✨ , and **reservoir computing** 🌀.
 
