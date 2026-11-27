@@ -86,8 +86,8 @@ a:focus-visible, button:focus-visible {
 .author__avatar img { width: 175px; height: 175px; padding: 5px; object-fit: cover; border: 1px solid $border-color; }
 .author__content { display: block; padding: 0; }
 .sidebar .author__name { margin: 17px 0 7px; font-size: 23px; letter-spacing: -.025em; }
-.author__bio { margin: 0 0 8px; font-size: 14px !important; }
-.author__department, .author__employer { margin: 0 0 5px; color: #686f75; font-size: 13px !important; }
+.author__bio { margin: 0 0 8px; font-size: 16px !important; }
+.author__department, .author__employer { margin: 0 0 5px; color: #686f75; font-size: 16px !important; }
 .author__employer a { color: $text-color; }
 .author__urls {
   display: block;
@@ -102,7 +102,7 @@ a:focus-visible, button:focus-visible {
 }
 .author__urls::before, .author__urls::after { display: none; }
 .author__urls a { padding: 4px 0; margin: 0; }
-.author__urls li { margin-bottom: 4px; font-size: 13px; }
+.author__urls li { margin-bottom: 4px; font-size: 16px; }
 .author__location { display: block; padding: 4px 0; }
 .author__urls i { margin-right: 5px; color: #686f75; }
 
@@ -110,12 +110,12 @@ a:focus-visible, button:focus-visible {
 .page__content .anchor { display: block; height: 0; margin: 0; }
 .page__content #about-me { margin-top: 0; }
 .page__content h1::before, .page__content .anchor::before, .page__content #about-me::before { display: none; }
-.page__content h1 { margin-top: 34px; margin-bottom: 18px; padding-bottom: 11px; font-size: 23px; letter-spacing: -.025em; }
+.page__content h1 { margin-top: 26px; margin-bottom: 8px; padding-bottom: 8px; font-size: 22px; letter-spacing: -.020em; }
 .page__content #about-me + h1 { margin-top: 0; }
-.page__content h2 { margin: 24px 0 11px; color: #686f75; font-size: 15px; }
-.page__content p { margin-bottom: 12px; }
+.page__content h2 { margin: 20px 0 11px; color: #686f75; font-size: 15px; }
+.page__content p { margin-bottom: 6px; }
 .page__content ul { padding-left: 19px; margin: 12px 0 0; }
-.page__content li { padding-left: 3px; margin-bottom: 19px; line-height: 1.75; }
+.page__content li { padding-left: 3px; margin-bottom: 15px; line-height: 1.6; }
 .page__content li a { overflow-wrap: anywhere; }
 .page__content a { text-decoration: none; }
 .page__content a:hover { text-decoration: underline; }
