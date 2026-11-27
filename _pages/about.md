@@ -31,7 +31,7 @@ My research interests include **brain-inspired navigation**  🤖 and **brain-in
 ## 2026
 
 - **[Learning attractor dynamics via reservoir computing for efficient and robust path integration](https://ieeexplore.ieee.org/document/11776238)**  
-  **Youdong Zhang**, Xiaolin Meng\*, Xu He, Lingfei Mo*, and Xiangdong An.  
+  **Youdong Zhang**, Xiaolin Meng\*, Xu He, Lingfei Mo\*, and Xiangdong An.  
   *2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Pittsburgh, PA, USA, 2026.   
   [Paper](https://rasevents.org/uploads/documents/pdfviewer/b5/7f/232079-1650.pdf) · [Code](https://github.com/BINUCOE/RC_PI) · [DOI: 10.1109/IROS61738.2026.11776238](https://doi.org/10.1109/IROS61738.2026.11776238)
 
@@ -46,7 +46,7 @@ My research interests include **brain-inspired navigation**  🤖 and **brain-in
   [Paper](https://ieeexplore.ieee.org/document/11554414) · [Code](https://github.com/BINUCOE/SpikingUWB) · [DOI: 10.1109/JIOT.2026.3701553](https://doi.org/10.1109/JIOT.2026.3701553)
 
 - **Enriching liquid states with cross-scale weight heterogeneity in spiking reservoir computing**  
-  **Youdong Zhang**, Xiaolin Meng\*, Xu He, and Lingfei Mo*.  
+  **Youdong Zhang**, Xiaolin Meng\*, Xu He, and Lingfei Mo\*.  
   *Cognitive Neurodynamics*, 2026. **Accepted**.
 
 - **[A reservoir computing-based grid cell model for efficient brain-inspired path integration](https://doi.org/10.5281/zenodo.24008771)**  
