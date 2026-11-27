@@ -39,7 +39,6 @@ mathjax: false
 include:
   - _pages
   - files
-  - assets/js/_main.js
 exclude:
   - .preview
   - .github
