@@ -57,7 +57,7 @@ My research interests include **brain-inspired navigation**  🤖 and **brain-in
 ## 2025
 
 - **[Unsupervised spiking neural network based on liquid state machine and self-organizing map](https://www.sciencedirect.com/science/article/pii/S0925231224018915)**  
-  **{{ site.author.name }}**, Lingfei Mo*, Xu He, and Xiaolin Meng.  
+  **{{ site.author.name }}**, Lingfei Mo\*, Xu He, and Xiaolin Meng.  
   *Neurocomputing*, vol. 620, article 129120, March 2025.  
   [Paper](https://www.sciencedirect.com/science/article/pii/S0925231224018915) · [DOI: 10.1016/j.neucom.2024.129120](https://doi.org/10.1016/j.neucom.2024.129120)
 
