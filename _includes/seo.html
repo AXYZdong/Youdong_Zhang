@@ -1,0 +1,14 @@
+{% assign seo_description = page.excerpt | default: site.description | strip_html | strip_newlines %}
+<title>{{ site.title | escape }} | Academic Homepage</title>
+<meta name="description" content="{{ seo_description | escape }}">
+<meta name="author" content="{{ site.author.name | escape }}">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="{{ site.locale | escape }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ site.title | escape }} | Academic Homepage">
+<meta property="og:description" content="{{ seo_description | escape }}">
+{% if site.url and site.url != '' %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ site.author.avatar | absolute_url }}">
+{% endif %}

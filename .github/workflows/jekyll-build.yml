@@ -1,0 +1,43 @@
+name: Jekyll build check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: jekyll-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install Ruby and GitHub Pages dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build with Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --safe --strict_front_matter --trace
+
+      - name: Verify generated pages and assets
+        shell: bash
+        run: |
+          test -s _site/index.html
+          test -s _site/assets/css/main.css
+          test -s _site/assets/js/_main.js
+          test -s _site/images/profile.jpg
+          test -s _site/sitemap.xml
+          test -s _site/about/index.html
+          test -s _site/about.html
+          ruby -e 'css = File.read("_site/assets/css/main.css"); abort "CSS output contains an HTML layout" if css.match?(/<!doctype|<html/i)'

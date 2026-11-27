@@ -1,0 +1,17 @@
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <a class="site-title" href="{{ '/' | relative_url }}#top">{{ site.title | escape }}</a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation" hidden>
+          <i class="fas fa-bars" aria-hidden="true"></i><span>Menu</span>
+        </button>
+        <ul class="visible-links" id="main-navigation">
+          {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item"><a href="{{ '/' | relative_url }}{{ link.url }}">{{ link.title | escape }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

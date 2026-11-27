@@ -1,0 +1,103 @@
+# 个人学术主页配置；修改后需重新构建。
+# 日常维护：个人资料在这里；正文在 _pages/about.md；导航在 _data/navigation.yml。
+
+# Site Settings（与 AcadHomepage 模板保持相同配置方式）
+title: "Youdong Zhang"
+description: "Youdong Zhang is a Ph.D. candidate at Southeast University working on brain-inspired navigation and intelligence, spiking neural networks, and reservoir computing."
+locale: "en"
+# 当前按现有仓库 AXYZdong/Youdong_Zhang 配置项目主页。
+# 若改用 AXYZdong.github.io 仓库：baseurl 改为 ""，repository 改为 "AXYZdong/AXYZdong.github.io"。
+url: "https://axyzdong.github.io"     # 域名，不包含仓库路径或末尾斜杠
+baseurl: "/Youdong_Zhang"            # 项目仓库路径；用户根主页留空
+repository: "AXYZdong/Youdong_Zhang"
+last_updated: "November 2026"
+copyright_year: "2026"
+
+# Site Author
+author:
+  name: "Youdong Zhang"
+  avatar: "images/profile.jpg"
+  bio: "Ph.D. Candidate"
+  department: "Instrument Science and Technology"
+  location: "Nanjing, China"
+  employer: "Southeast University"
+  employer_url: "https://www.seu.edu.cn/"
+  email: "ydzhang@seu.edu.cn"
+  email_alt: "axyzdong@gmail.com"
+  github: "AXYZdong"        # 只填写用户名
+  googlescholar: "https://scholar.google.com/citations?user=srSnMs0AAAAJ"
+  researchgate: "https://www.researchgate.net/profile/Youdong-Zhang-2"
+  orcid: "https://orcid.org/0009-0000-8587-1777"
+
+# 可选功能；当前页面无需公式或在线统计。
+google_scholar_stats: false
+google_scholar_stats_use_cdn: true
+google_analytics_id: ""
+mathjax: false
+
+# Reading Files
+include:
+  - _pages
+  - files
+  - assets/js/_main.js
+exclude:
+  - .preview
+  - .github
+  - tools
+  - _site
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - vendor
+  - docs
+  - google_scholar_crawler
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - THIRD_PARTY_NOTICES.md
+  - README.md
+  - run_server.sh
+  - run_server.ps1
+  - assets/js/main.min.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - assets/css/collapse.css
+  - assets/js/collapse.js
+keep_files: []
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+incremental: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+# Sass/SCSS：新增或覆盖样式放在 _sass/_custom.scss。
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+# 正式构建使用 --safe 时也允许 GitHub Pages 支持的这两个插件。
+whitelist:
+  - jekyll-sitemap
+  - jekyll-redirect-from

@@ -1,0 +1,10 @@
+# 顶部导航；url 对应 _pages/about.md 中的显式锚点。
+main:
+  - title: "About Me"
+    url: "#about-me"
+  - title: "Publications"
+    url: "#publications"
+  - title: "Education"
+    url: "#education"
+  - title: "Contact"
+    url: "#contact"

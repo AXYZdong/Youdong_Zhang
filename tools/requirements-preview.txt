@@ -1,0 +1,6 @@
+# 可选的 Windows 本地预览依赖，全部安装到 tools/.deps。
+# 正式 GitHub Pages / Jekyll 构建不使用这些 Python 库。
+python-liquid>=2,<3
+libsass>=0.23,<0.24
+PyYAML>=6,<7
+mistune>=3,<4
